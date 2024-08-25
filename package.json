@@ -1,0 +1,20 @@
+{
+  "name": "lottie-converter",
+  "version": "1.0.0",
+  "main": "command.js",
+  "scripts": {
+    "start": "node ./command.js"
+  },
+  "bin": {
+    "lottie-converter": "./command.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "commander": "^12.1.0",
+    "fs-extra": "^11.2.0"
+  }
+}
