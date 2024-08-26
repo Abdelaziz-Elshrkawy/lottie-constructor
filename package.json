@@ -12,7 +12,9 @@
   "keywords": [
     "lottie",
     "animation",
-    "lottie-file"
+    "lottie-file",
+    "lottie-constructor",
+    "lottie-converter"
   ],
   "license": "ISC",
   "description": "A tool to convert PNG frames to Lottie JSON format",
