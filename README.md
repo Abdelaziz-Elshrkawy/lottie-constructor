@@ -1,11 +1,11 @@
-# Lottie Converter
+# Lottie Constructor
 
 `lottie-converter` is a command-line tool that converts a sequence of PNG frames into a Lottie JSON animation file. This tool is useful for creating animations in Lottie format from individual image frames.
 
 ## Features
 
-- Converts PNG frames to a Lottie JSON animation.
-- Supports specifying input directory, output file, and frame rate.
+-   Converts PNG frames to a Lottie JSON animation.
+-   Supports specifying input directory, output file, and frame rate.
 
 ## Installation
 
@@ -27,10 +27,10 @@ lottie-converter [options]
 
 Options
 
-- -v                    :version
-- -i, --input 'dir'     : Input directory containing PNG frames. Defaults to the current directory (./).
-- -o, --output 'file'   : Output Lottie JSON file. Defaults to output.json.
-- -f, --framerate 'rate': Frame rate of the animation. Defaults to 24.
+-   -v :version
+-   -i, --input 'dir' : Input directory containing PNG frames. Defaults to the current directory (./).
+-   -o, --output 'file' : Output Lottie JSON file. Defaults to output.json.
+-   -f, --framerate 'rate': Frame rate of the animation. Defaults to 24.
 
 ex: lottie-converter -i /path/to/frames -o /path/to/output.json -f 30
 
