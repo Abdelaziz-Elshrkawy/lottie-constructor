@@ -1,5 +1,5 @@
 {
-  "name": "png-lottie-converter",
+  "name": "lottie-constructor",
   "version": "1.0.0",
   "author": "abdelaziz-elshrkawy",
   "main": "command.js",
@@ -7,7 +7,7 @@
     "start": "node ./command.js"
   },
   "bin": {
-    "lottie-converter": "./command.js"
+    "lottie-constructor": "./command.js"
   },
   "keywords": [
     "lottie",
