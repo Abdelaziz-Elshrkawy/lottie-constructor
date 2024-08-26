@@ -1,5 +1,5 @@
 {
-  "name": "lottie-converter",
+  "name": "png-lottie-converter",
   "version": "1.0.0",
   "author": "abdelaziz-elshrkawy",
   "main": "command.js",
@@ -9,7 +9,11 @@
   "bin": {
     "lottie-converter": "./command.js"
   },
-  "keywords": ["lottie", "animation", "lottie-file"],
+  "keywords": [
+    "lottie",
+    "animation",
+    "lottie-file"
+  ],
   "license": "ISC",
   "description": "A tool to convert PNG frames to Lottie JSON format",
   "dependencies": {
