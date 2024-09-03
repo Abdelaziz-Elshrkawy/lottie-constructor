@@ -19,6 +19,8 @@ To install the package globally and use it from the command line, run:
 npm install -g lottie-constructor
 ```
 
+### NPM (Link)[https://www.npmjs.com/package/lottie-constructor]
+
 ## Usage
 
 lottie-constructor [options]
