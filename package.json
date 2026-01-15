@@ -4,7 +4,8 @@
   "author": "abdelaziz-elshrkawy",
   "main": "command.js",
   "scripts": {
-    "start": "node ./command.js"
+    "start": "node ./command.js",
+    "build": "pkg . --targets node18-win-x64,node18-macos-x64,node18-linux-x64"
   },
   "bin": {
     "lottie-constructor": "./command.js"
@@ -19,8 +20,8 @@
   "license": "ISC",
   "description": "A tool to convert PNG frames to Lottie JSON format",
   "dependencies": {
-    "canvas": "^2.11.2",
-    "commander": "^12.1.0",
+    "canvas": "^3.2.1",
+    "commander": "^14.0.2",
     "fs-extra": "^11.2.0"
   },
   "files": [
@@ -28,5 +29,8 @@
     "lottieConstructor.js",
     "package.json",
     "README.md"
-  ]
+  ],
+  "devDependencies": {
+    "pkg": "^5.8.1"
+  }
 }
