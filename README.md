@@ -2,6 +2,13 @@
 
 `lottie-constructor` is a command-line tool that converts a sequence of PNG frames into a Lottie JSON animation file. This tool is useful for creating animations in Lottie format from individual image frames.
 
+<p align="center">
+  <a href="https://www.npmjs.com/package/lottie-constructor">
+    <img src="https://img.shields.io/badge/npm-lottie--constructor-orange?logo=npm&style=for-the-badge" alt="npm package" />
+  </a>
+</p>
+
+
 ## Features
 
 -   Converts PNG frames to a Lottie JSON animation.
